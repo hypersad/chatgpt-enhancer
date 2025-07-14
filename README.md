@@ -1,12 +1,12 @@
-# Remove ChatGPT Voice Input Button
+# Remove ChatGPT Speaker button
 
-This user script **permanently removes the annoying voice input (mic) button** from the ChatGPT interface. It works instantly and continues to block it even if the page re-renders or updates the DOM.
+This user script **permanently removes the annoying speaker button** from the ChatGPT interface. It works instantly and continues to block it even if the page re-renders or updates the DOM.
 
 ---
 
 ## 🔧 What It Does
 
-* Removes the "Start voice mode" button next to the ChatGPT input bar.
+* Removes the "Start speaker mode" button next to the ChatGPT input bar.
 * Keeps it gone with a DOM observer.
 * Works on [chat.openai.com](https://chat.openai.com) without needing page reloads.
 
@@ -43,7 +43,7 @@ Your userscript manager will prompt you to confirm installation.
 
 ### 3. Refresh ChatGPT
 
-Visit [https://chat.openai.com](https://chat.openai.com) and **refresh the page**. The voice input button will be instantly removed and blocked permanently.
+Visit [https://chat.openai.com](https://chat.openai.com) and **refresh the page**. The speaker button will be instantly removed and blocked permanently.
 
 ---
 
