@@ -1,4 +1,4 @@
-# Remove ChatGPT Speaker button
+# Remove ChatGPT Speaker
 
 This user script **permanently removes the annoying speaker button** from the ChatGPT interface. It works instantly and continues to block it even if the page re-renders or updates the DOM.
 
