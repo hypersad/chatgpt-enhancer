@@ -1,4 +1,4 @@
-# Remove ChatGPT Speaker
+# ChatGPT Enhancer
 
 This user script **permanently removes the annoying speaker button** from the ChatGPT interface. It works instantly and continues to block it even if the page re-renders or updates the DOM.
 
@@ -35,7 +35,7 @@ Choose **one** of the following browser extensions:
 ### 2. Install the Script
 
 Click this link to install:
-**[👉 Install `remove-chatgpt-voice-input-button.js`](https://raw.githubusercontent.com/hypersad/remove-chatgpt-voice-input-button/refs/heads/main/remove-chatgpt-voice-input-button.js)**
+**[👉 Install `chatgpt-enhancer.js`](https://raw.githubusercontent.com/hypersad/chatgpt-enhancer/refs/heads/main/chatgpt-enhancer.js)**
 
 Your userscript manager will prompt you to confirm installation.
 
