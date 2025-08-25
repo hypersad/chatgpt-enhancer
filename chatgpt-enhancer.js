@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         ChatGPT Cleaner - No Backslash, No Markdown in Replies
+// @name         ChatGPT Enhancer - No Backslash, No Markdown in Replies
 // @namespace    http://tampermonkey.net/
-// @version      5.0
-// @description  Remove all backslashes and markdown artifacts (** __ etc) from assistant replies, excluding code/pre blocks. Also hides voice input button.
+// @version      5.1
+// @description  Remove all backslashes and markdown artifacts (** __ etc) from assistant replies, excluding code/pre blocks. Also hides voice input button and adjusts composer height/scroll.
 // @author       hypersad
 // @match        https://chat.openai.com/*
 // @match        https://chatgpt.com/c/*
@@ -80,6 +80,17 @@
         setTimeout(() => {
             hideVoiceInput();
             cleanAssistantReplies();
+
+            // Inject style
+            const style = document.createElement('style');
+            style.innerHTML = `
+              .composer-parent>.flex-1>div>div>div {
+                height: 100%;
+                overflow: auto;
+              }
+            `;
+            document.head.appendChild(style);
+
         }, 1200);
     });
 })();
